@@ -1,0 +1,16 @@
+...
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'Name': 'myproject2',
+        'USER': 'myproject2user',
+        'PASSWORD': 'Divya@123',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
+
+ALLOWED_HOSTS = ['127.0.0.1:8000']
+
+...
